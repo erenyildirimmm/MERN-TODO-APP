@@ -8,9 +8,7 @@ git clone https://github.com/username/mern-todo.git
 “`
 
 ** In the project directory, install the necessary packages with the following command: **
-“`
-npm install
-“`
+“`npm install`“
 
 ** Since the front-end portion of the project is written with React, navigate to the client directory and run the npm install command again before starting the development server with npm start. **
 “`
