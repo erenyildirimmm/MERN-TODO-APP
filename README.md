@@ -3,9 +3,9 @@
 
 ## Getting Started
 **To clone the project to your local machine, use the following command:**
-“`
+```
 git clone https://github.com/username/mern-todo.git
-“`
+```
 
 ** In the project directory, install the necessary packages with the following command: **
 “`npm install`“
