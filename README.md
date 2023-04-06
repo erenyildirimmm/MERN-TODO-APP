@@ -7,7 +7,7 @@
 git clone https://github.com/username/mern-todo.git
 ```
 
-** In the project directory, install the necessary packages with the following command: **
+**In the project directory, install the necessary packages with the following command:**
 ```
 npm install
 ```
