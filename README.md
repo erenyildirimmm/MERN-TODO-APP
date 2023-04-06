@@ -2,7 +2,7 @@
 ** This is a Todo application built using the MERN stack. Users can create, edit, and delete tasks, as well as utilize additional functionality such as marking completed tasks and undoing completed tasks. **
 
 ## Getting Started
-** To clone the project to your local machine, use the following command: **
+**To clone the project to your local machine, use the following command:**
 “`
 git clone https://github.com/username/mern-todo.git
 “`
