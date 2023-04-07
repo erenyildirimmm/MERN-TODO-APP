@@ -1,5 +1,6 @@
 import { useState, useEffect} from 'react';
 import { FaTimes, FaPlus, FaTasks } from "react-icons/fa";
+import Popup from './components/Popup';
 
 const API_BASE = "http://localhost:3001";
 
@@ -75,19 +76,7 @@ function App() {
 
       <div className="addPopup" onClick={() => setPopupActive(true)}><FaPlus /></div>
       {popupActive ? (
-        <div className="popup">
-          <div className="closePopup" onClick={() => setPopupActive(false)}><FaTimes /></div>
-          <div className="content">
-            <h3>Add Task</h3>
-            <input 
-            type="text" 
-            className="add-todo-input" 
-            onChange={e => setNewTodo(e.target.value)}
-            value={newTodo}
-            />
-            <div className="button" onClick={addTodo}>Create Todo</div>
-          </div>
-        </div>
+        <Popup addTodo={addTodo} setNewTodo={setNewTodo} setPopupActive={setPopupActive} newTodo={newTodo} />
        ) : ''}
     </div>
   );
